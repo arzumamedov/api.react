@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.api {
+    border: 1px solid black;
+    width: 320px;
+
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.darkmode {
+    background-color: black;
+    color: white;
+
+    .api {
+        border: 1px solid white;
+    }
+}
+
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.card{
+    border: 1px solid black;
+    width: 320px;
+}
